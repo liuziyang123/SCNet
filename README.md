@@ -44,4 +44,8 @@ Save the model in a folder in the `Saved` directory. and execute the following c
 
 We provide our trained [model (code: klfy)](https://pan.baidu.com/s/1QSwEVst0RnKOreVEieio0A) for reference.
 
+We also provide our code in `Test/test.py` for visualization of **spatial and channel attention**, and `flops.py` for computing network parameters and FLOPs.
+## 4. Train
+Set the corresponding datapath, and run:
 
+`source Shell/train.sh`
